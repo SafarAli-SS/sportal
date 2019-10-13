@@ -1,0 +1,8 @@
+.categories {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.categories li {
+  list-style: none;
+}

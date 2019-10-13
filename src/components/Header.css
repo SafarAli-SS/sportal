@@ -1,0 +1,9 @@
+.carusel {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.carusel img {
+  height: 20rem;
+  margin-bottom: 2rem;
+}

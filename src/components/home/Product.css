@@ -1,0 +1,38 @@
+.product {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.product:hover {
+  box-shadow: 5px 5px 15px #000;
+}
+
+.image-container {
+  position: relative;
+}
+
+.btn-wish {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.btn-addToCart {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.wish,
+.add-cart {
+  font-size: 200%;
+}
+
+.wish,
+.add-cart,
+.btn-delete {
+  color: rgb(236, 30, 30);
+}

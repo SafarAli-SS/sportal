@@ -1,0 +1,6 @@
+.footer {
+  bottom: 0;
+  background: var(--main-color);
+  height: 10rem;
+  width: 100%;
+}

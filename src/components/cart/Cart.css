@@ -1,0 +1,44 @@
+.cart-page {
+  height: 100%;
+}
+
+.empty-cart {
+  margin-top: 5rem;
+  text-align: center;
+  color: var(--main-color);
+  height: 28rem;
+}
+
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+.increment,
+.decrement {
+  text-align: center;
+  line-height: 1rem;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid var(--main-color);
+  cursor: pointer;
+}
+
+.decrement {
+  margin-left: 1rem;
+}
+
+.quantity {
+  margin: 0 1rem;
+}
+
+.btn-delete {
+  align-self: top;
+}
